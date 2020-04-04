@@ -24,7 +24,8 @@ body{
     margin-right: 80px;
     margin-bottom: 80px; */
     /* margin: 40px; */
-    padding: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
     grid-auto-flow: dense;
     grid-gap: 10px;
     }
@@ -78,13 +79,19 @@ body{
    
 
 
-    /* @media only screen and (max-width: 600px){
+     @media only screen and (max-width: 600px){
 
        .container{
-           display: none;
+        grid-template-columns: repeat(auto-fill,minmax(50%,1fr));
+        grid-template-rows: minmax(auto,auto);
        }
 
-    } */
+       .container .box{
+           grid-column: unset !important;
+           grid-row: unset !important;
+       }
+
+    } 
 
 
 
