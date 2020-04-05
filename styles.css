@@ -262,14 +262,14 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 50%, #c58080 100%);
         padding: 10px 0px 0px 20px;
         text-transform: capitalize;
         text-align: center;
-        font-size: 16px;
+        font-size: 25px;
         color: rgb(245, 101, 65);
         font-family: 'Oswald', sans-serif;
         padding-bottom: 20px;
         
     }
     .header .h2:hover{
-        font-size: 25px;
+        /* font-size: 25px; */
     }
     img{
         padding-top: 10px;
