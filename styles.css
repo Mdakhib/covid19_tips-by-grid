@@ -269,7 +269,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 50%, #c58080 100%);
         
     }
     .header .h2:hover{
-        /* font-size: 25px; */
+        display: none;
     }
     img{
         padding-top: 10px;
